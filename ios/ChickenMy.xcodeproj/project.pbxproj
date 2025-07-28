@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04203FD8640A401E967654D2 /* Exo2-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F95BD0AB60A947C8866C64A9 /* Exo2-ExtraLightItalic.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-ChickenMy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ChickenMy.a */; };
+		0CE0B7E777E947C9BD1A4488 /* CrimsonText-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3EBDDAE70CF4CF4B671FD56 /* CrimsonText-Italic.ttf */; };
+		11DB309C6B19447BAADB9674 /* Moderustic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C52FDA479AC041648A16EE4A /* Moderustic-Medium.ttf */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		16C1E3A72A6946669D47832D /* Exo2-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F6AA5E6086F4F2DA0988977 /* Exo2-BoldItalic.ttf */; };
+		18878C0CB68B43FC82774298 /* Moderustic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A4602D9E52D40F18ED3E67F /* Moderustic-Bold.ttf */; };
+		1ACA9A1EC6204C7E9D4278F2 /* Exo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32C74FDC5E74202BB6C56C8 /* Exo2-Regular.ttf */; };
+		1B4B2FA331E94D7C802F912E /* Moderustic-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D4B8E981E401EB8A0D6F9 /* Moderustic-SemiBold.ttf */; };
+		2CF18AE10C014BD6A1ADF5F7 /* Moderustic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38531304522249DAB76E9429 /* Moderustic-Light.ttf */; };
+		34D9DA050E5C42E18092F7F5 /* Moderustic-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3161DC5F7D4C49A9A49A55CD /* Moderustic-ExtraBold.ttf */; };
+		398AA00C08014168AC840F01 /* Exo2-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7A7E0203E94D6F98A4B9FB /* Exo2-ExtraBoldItalic.ttf */; };
+		3BB4682C13C74EE59B920EAD /* Exo2-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4A9F1747C34A0385925665 /* Exo2-Italic.ttf */; };
+		4C714DE578C649238E7FE338 /* Exo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 790B4EBE50D440DE802A341C /* Exo2-Medium.ttf */; };
+		5AAA089BA3654FBFA76C10BD /* Exo2-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E724F8A986E4D1B86EE8A29 /* Exo2-ThinItalic.ttf */; };
+		5E1AC2C484759918501E28D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		61247893AC644CA3B8DB0AD1 /* CrimsonText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F02DAF3A8BA406389C333A2 /* CrimsonText-Regular.ttf */; };
+		6F8554F835B6487193C9133E /* Exo2-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA625CE98AE0497A8A663406 /* Exo2-LightItalic.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		85255BF014104D438AC5170A /* CrimsonText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E75AF8718B7648B792C2D535 /* CrimsonText-Bold.ttf */; };
+		86C99038A0534F89BB003774 /* Exo2-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F610823B70D42128F9E28F9 /* Exo2-Light.ttf */; };
+		9B9D6734B9BF4F4B9BF323C0 /* Moderustic-VariableFont_wght.ttf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C3189A000024B30B08D75E5 /* Moderustic-VariableFont_wght.ttf.ttf */; };
+		A077F4C5342B4333A6744067 /* Exo2-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAFA86EC7DEA40CEA77539D3 /* Exo2-SemiBoldItalic.ttf */; };
+		A08040E77F8E43CEA7DC2E40 /* Moderustic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 979BFFF4CF3A4F378B360A4B /* Moderustic-Regular.ttf */; };
+		B30498C117EA4CFF8450000E /* CrimsonText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 658823DD1D494878A6B20927 /* CrimsonText-SemiBold.ttf */; };
+		B6CE4C1918AB42448ED62DBF /* Exo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFEF1E764E5246FB9D338033 /* Exo2-SemiBold.ttf */; };
+		BF96CF907F5840868B718F08 /* Exo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECFB80939CC48BFA740E521 /* Exo2-ExtraBold.ttf */; };
+		C4F49C530883430F99D2FA91 /* Exo2-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4376E3FA41D451A8C44DA9D /* Exo2-MediumItalic.ttf */; };
+		C6AF9D044A1A4EEA8C9B6FC7 /* Exo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C411119B7B34448390074E80 /* Exo2-Bold.ttf */; };
+		C9790E463DA54C9D9C8ECB29 /* Exo2-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B7B4C9A22954FE8ACD42A24 /* Exo2-Thin.ttf */; };
+		CEF465EBE40D42248448AB58 /* Exo2-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1904F11522AD40CE80B50828 /* Exo2-Black.ttf */; };
+		DEA28E16157B4AD89C5231DF /* CrimsonText-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15664A0D8F9A432FB6B6B237 /* CrimsonText-SemiBoldItalic.ttf */; };
+		E7292BF91E4640F4A4CBA015 /* Exo2-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF68DA8A6D4AC098ADB431 /* Exo2-BlackItalic.ttf */; };
+		F7842A6457724ED3830E1BE4 /* CrimsonText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1D015BFCAC45E89A7D8A2E /* CrimsonText-BoldItalic.ttf */; };
+		F9439A0472244DA4984873DF /* Exo2-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A6392BEB184098A57DB228 /* Exo2-ExtraLight.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B07F961A680F5B00A75B9A /* ChickenMy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickenMy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ChickenMy/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ChickenMy/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ChickenMy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		15664A0D8F9A432FB6B6B237 /* CrimsonText-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CrimsonText-SemiBoldItalic.ttf"; path = "../assets/fonts/CrimsonText-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		1904F11522AD40CE80B50828 /* Exo2-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-Black.ttf"; path = "../assets/fonts/Exo2-Black.ttf"; sourceTree = "<group>"; };
+		1F6AA5E6086F4F2DA0988977 /* Exo2-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-BoldItalic.ttf"; path = "../assets/fonts/Exo2-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2C3189A000024B30B08D75E5 /* Moderustic-VariableFont_wght.ttf.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderustic-VariableFont_wght.ttf.ttf"; path = "../assets/fonts/Moderustic-VariableFont_wght.ttf.ttf"; sourceTree = "<group>"; };
+		2E3D4B8E981E401EB8A0D6F9 /* Moderustic-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderustic-SemiBold.ttf"; path = "../assets/fonts/Moderustic-SemiBold.ttf"; sourceTree = "<group>"; };
+		2E724F8A986E4D1B86EE8A29 /* Exo2-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-ThinItalic.ttf"; path = "../assets/fonts/Exo2-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3161DC5F7D4C49A9A49A55CD /* Moderustic-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderustic-ExtraBold.ttf"; path = "../assets/fonts/Moderustic-ExtraBold.ttf"; sourceTree = "<group>"; };
+		38531304522249DAB76E9429 /* Moderustic-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderustic-Light.ttf"; path = "../assets/fonts/Moderustic-Light.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-ChickenMy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChickenMy.debug.xcconfig"; path = "Target Support Files/Pods-ChickenMy/Pods-ChickenMy.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1D015BFCAC45E89A7D8A2E /* CrimsonText-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CrimsonText-BoldItalic.ttf"; path = "../assets/fonts/CrimsonText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4B7B4C9A22954FE8ACD42A24 /* Exo2-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-Thin.ttf"; path = "../assets/fonts/Exo2-Thin.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ChickenMy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChickenMy.release.xcconfig"; path = "Target Support Files/Pods-ChickenMy/Pods-ChickenMy.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ChickenMy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChickenMy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658823DD1D494878A6B20927 /* CrimsonText-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CrimsonText-SemiBold.ttf"; path = "../assets/fonts/CrimsonText-SemiBold.ttf"; sourceTree = "<group>"; };
+		6F610823B70D42128F9E28F9 /* Exo2-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-Light.ttf"; path = "../assets/fonts/Exo2-Light.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ChickenMy/AppDelegate.swift; sourceTree = "<group>"; };
+		790B4EBE50D440DE802A341C /* Exo2-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-Medium.ttf"; path = "../assets/fonts/Exo2-Medium.ttf"; sourceTree = "<group>"; };
+		7ECFB80939CC48BFA740E521 /* Exo2-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-ExtraBold.ttf"; path = "../assets/fonts/Exo2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7F02DAF3A8BA406389C333A2 /* CrimsonText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CrimsonText-Regular.ttf"; path = "../assets/fonts/CrimsonText-Regular.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ChickenMy/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82A6392BEB184098A57DB228 /* Exo2-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-ExtraLight.ttf"; path = "../assets/fonts/Exo2-ExtraLight.ttf"; sourceTree = "<group>"; };
+		979BFFF4CF3A4F378B360A4B /* Moderustic-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderustic-Regular.ttf"; path = "../assets/fonts/Moderustic-Regular.ttf"; sourceTree = "<group>"; };
+		9A4602D9E52D40F18ED3E67F /* Moderustic-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderustic-Bold.ttf"; path = "../assets/fonts/Moderustic-Bold.ttf"; sourceTree = "<group>"; };
+		9CDF68DA8A6D4AC098ADB431 /* Exo2-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-BlackItalic.ttf"; path = "../assets/fonts/Exo2-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BA625CE98AE0497A8A663406 /* Exo2-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-LightItalic.ttf"; path = "../assets/fonts/Exo2-LightItalic.ttf"; sourceTree = "<group>"; };
+		BFEF1E764E5246FB9D338033 /* Exo2-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-SemiBold.ttf"; path = "../assets/fonts/Exo2-SemiBold.ttf"; sourceTree = "<group>"; };
+		C3EBDDAE70CF4CF4B671FD56 /* CrimsonText-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CrimsonText-Italic.ttf"; path = "../assets/fonts/CrimsonText-Italic.ttf"; sourceTree = "<group>"; };
+		C411119B7B34448390074E80 /* Exo2-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-Bold.ttf"; path = "../assets/fonts/Exo2-Bold.ttf"; sourceTree = "<group>"; };
+		C52FDA479AC041648A16EE4A /* Moderustic-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderustic-Medium.ttf"; path = "../assets/fonts/Moderustic-Medium.ttf"; sourceTree = "<group>"; };
+		CE7A7E0203E94D6F98A4B9FB /* Exo2-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-ExtraBoldItalic.ttf"; path = "../assets/fonts/Exo2-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D32C74FDC5E74202BB6C56C8 /* Exo2-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-Regular.ttf"; path = "../assets/fonts/Exo2-Regular.ttf"; sourceTree = "<group>"; };
+		D4376E3FA41D451A8C44DA9D /* Exo2-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-MediumItalic.ttf"; path = "../assets/fonts/Exo2-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DAFA86EC7DEA40CEA77539D3 /* Exo2-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-SemiBoldItalic.ttf"; path = "../assets/fonts/Exo2-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E75AF8718B7648B792C2D535 /* CrimsonText-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CrimsonText-Bold.ttf"; path = "../assets/fonts/CrimsonText-Bold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE4A9F1747C34A0385925665 /* Exo2-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-Italic.ttf"; path = "../assets/fonts/Exo2-Italic.ttf"; sourceTree = "<group>"; };
+		F95BD0AB60A947C8866C64A9 /* Exo2-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Exo2-ExtraLightItalic.ttf"; path = "../assets/fonts/Exo2-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-ChickenMy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* ChickenMy */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = ChickenMy;
+			sourceTree = "<group>";
+		};
+		15A4528CE1FF4C3FB0C3D76F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A4602D9E52D40F18ED3E67F /* Moderustic-Bold.ttf */,
+				3161DC5F7D4C49A9A49A55CD /* Moderustic-ExtraBold.ttf */,
+				38531304522249DAB76E9429 /* Moderustic-Light.ttf */,
+				C52FDA479AC041648A16EE4A /* Moderustic-Medium.ttf */,
+				979BFFF4CF3A4F378B360A4B /* Moderustic-Regular.ttf */,
+				2E3D4B8E981E401EB8A0D6F9 /* Moderustic-SemiBold.ttf */,
+				2C3189A000024B30B08D75E5 /* Moderustic-VariableFont_wght.ttf.ttf */,
+				1904F11522AD40CE80B50828 /* Exo2-Black.ttf */,
+				9CDF68DA8A6D4AC098ADB431 /* Exo2-BlackItalic.ttf */,
+				C411119B7B34448390074E80 /* Exo2-Bold.ttf */,
+				1F6AA5E6086F4F2DA0988977 /* Exo2-BoldItalic.ttf */,
+				7ECFB80939CC48BFA740E521 /* Exo2-ExtraBold.ttf */,
+				CE7A7E0203E94D6F98A4B9FB /* Exo2-ExtraBoldItalic.ttf */,
+				82A6392BEB184098A57DB228 /* Exo2-ExtraLight.ttf */,
+				F95BD0AB60A947C8866C64A9 /* Exo2-ExtraLightItalic.ttf */,
+				EE4A9F1747C34A0385925665 /* Exo2-Italic.ttf */,
+				6F610823B70D42128F9E28F9 /* Exo2-Light.ttf */,
+				BA625CE98AE0497A8A663406 /* Exo2-LightItalic.ttf */,
+				790B4EBE50D440DE802A341C /* Exo2-Medium.ttf */,
+				D4376E3FA41D451A8C44DA9D /* Exo2-MediumItalic.ttf */,
+				D32C74FDC5E74202BB6C56C8 /* Exo2-Regular.ttf */,
+				BFEF1E764E5246FB9D338033 /* Exo2-SemiBold.ttf */,
+				DAFA86EC7DEA40CEA77539D3 /* Exo2-SemiBoldItalic.ttf */,
+				4B7B4C9A22954FE8ACD42A24 /* Exo2-Thin.ttf */,
+				2E724F8A986E4D1B86EE8A29 /* Exo2-ThinItalic.ttf */,
+				E75AF8718B7648B792C2D535 /* CrimsonText-Bold.ttf */,
+				3E1D015BFCAC45E89A7D8A2E /* CrimsonText-BoldItalic.ttf */,
+				C3EBDDAE70CF4CF4B671FD56 /* CrimsonText-Italic.ttf */,
+				7F02DAF3A8BA406389C333A2 /* CrimsonText-Regular.ttf */,
+				658823DD1D494878A6B20927 /* CrimsonText-SemiBold.ttf */,
+				15664A0D8F9A432FB6B6B237 /* CrimsonText-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-ChickenMy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ChickenMy */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				15A4528CE1FF4C3FB0C3D76F /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ChickenMy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-ChickenMy.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ChickenMy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ChickenMy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ChickenMy" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChickenMy;
+			productName = ChickenMy;
+			productReference = 13B07F961A680F5B00A75B9A /* ChickenMy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ChickenMy" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ChickenMy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				18878C0CB68B43FC82774298 /* Moderustic-Bold.ttf in Resources */,
+				34D9DA050E5C42E18092F7F5 /* Moderustic-ExtraBold.ttf in Resources */,
+				2CF18AE10C014BD6A1ADF5F7 /* Moderustic-Light.ttf in Resources */,
+				11DB309C6B19447BAADB9674 /* Moderustic-Medium.ttf in Resources */,
+				A08040E77F8E43CEA7DC2E40 /* Moderustic-Regular.ttf in Resources */,
+				1B4B2FA331E94D7C802F912E /* Moderustic-SemiBold.ttf in Resources */,
+				9B9D6734B9BF4F4B9BF323C0 /* Moderustic-VariableFont_wght.ttf.ttf in Resources */,
+				CEF465EBE40D42248448AB58 /* Exo2-Black.ttf in Resources */,
+				E7292BF91E4640F4A4CBA015 /* Exo2-BlackItalic.ttf in Resources */,
+				C6AF9D044A1A4EEA8C9B6FC7 /* Exo2-Bold.ttf in Resources */,
+				16C1E3A72A6946669D47832D /* Exo2-BoldItalic.ttf in Resources */,
+				BF96CF907F5840868B718F08 /* Exo2-ExtraBold.ttf in Resources */,
+				398AA00C08014168AC840F01 /* Exo2-ExtraBoldItalic.ttf in Resources */,
+				F9439A0472244DA4984873DF /* Exo2-ExtraLight.ttf in Resources */,
+				04203FD8640A401E967654D2 /* Exo2-ExtraLightItalic.ttf in Resources */,
+				3BB4682C13C74EE59B920EAD /* Exo2-Italic.ttf in Resources */,
+				86C99038A0534F89BB003774 /* Exo2-Light.ttf in Resources */,
+				6F8554F835B6487193C9133E /* Exo2-LightItalic.ttf in Resources */,
+				4C714DE578C649238E7FE338 /* Exo2-Medium.ttf in Resources */,
+				C4F49C530883430F99D2FA91 /* Exo2-MediumItalic.ttf in Resources */,
+				1ACA9A1EC6204C7E9D4278F2 /* Exo2-Regular.ttf in Resources */,
+				B6CE4C1918AB42448ED62DBF /* Exo2-SemiBold.ttf in Resources */,
+				A077F4C5342B4333A6744067 /* Exo2-SemiBoldItalic.ttf in Resources */,
+				C9790E463DA54C9D9C8ECB29 /* Exo2-Thin.ttf in Resources */,
+				5AAA089BA3654FBFA76C10BD /* Exo2-ThinItalic.ttf in Resources */,
+				85255BF014104D438AC5170A /* CrimsonText-Bold.ttf in Resources */,
+				F7842A6457724ED3830E1BE4 /* CrimsonText-BoldItalic.ttf in Resources */,
+				0CE0B7E777E947C9BD1A4488 /* CrimsonText-Italic.ttf in Resources */,
+				61247893AC644CA3B8DB0AD1 /* CrimsonText-Regular.ttf in Resources */,
+				B30498C117EA4CFF8450000E /* CrimsonText-SemiBold.ttf in Resources */,
+				DEA28E16157B4AD89C5231DF /* CrimsonText-SemiBoldItalic.ttf in Resources */,
+				5E1AC2C484759918501E28D2 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChickenMy/Pods-ChickenMy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChickenMy/Pods-ChickenMy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChickenMy/Pods-ChickenMy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChickenMy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChickenMy/Pods-ChickenMy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChickenMy/Pods-ChickenMy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChickenMy/Pods-ChickenMy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ChickenMy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ChickenMy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nest.track.log;
+				PRODUCT_NAME = ChickenMy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ChickenMy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChickenMy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nest.track.log;
+				PRODUCT_NAME = ChickenMy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ChickenMy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ChickenMy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
